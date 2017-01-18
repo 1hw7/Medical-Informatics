@@ -1,4 +1,4 @@
-import qt
+
 def toggle():
      print('button clicked')
 def main():
