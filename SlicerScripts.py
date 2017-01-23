@@ -19,4 +19,4 @@ def main():
     button.show
     nodeTransform()
 
-
+main()
