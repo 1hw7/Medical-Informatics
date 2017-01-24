@@ -6,7 +6,7 @@ def nodeTransform():
 # Create transform node & translate
     node = slicer.vtkMRMLLinearTransformNode()
     node.SetName('PreModelToRas')
-    slicer.mrmlScene.AddNode(preModelToRas)
+    slicer.mrmlScene.AddNode(node)
     nodeToTranslate = vtk.vtkTransform()
     nodeToTranslate.PreMultiply() 
     nodeToTranslate.Translate(0, 100, 0)
